@@ -4,7 +4,7 @@ from pip._vendor import requests
 
 def retrieve_messages(channelid):
     headers = {
-        'authorization': 'MTQ0NTAzMDYzNTYwOTc4NDMy.GRhLjd.jR1VfNlOyUhU10RGqvZO0vx6PBQJTjgiNy2V3w' 
+        'authorization': '#' 
     }
     r = requests.get(f'https://discord.com/api/v9/channels/{channelid}/messages', headers=headers)
     jsonn = json.loads(r.text)
