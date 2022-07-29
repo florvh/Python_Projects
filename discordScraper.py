@@ -13,4 +13,4 @@ def retrieve_messages(channelid):
     with open('json_data.json', 'w') as outfile:
         outfile.write(json_input)
 
-retrieve_messages('753692831918456903')
+retrieve_messages('#')
